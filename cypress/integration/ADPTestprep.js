@@ -6,7 +6,8 @@ import { LoginPage } from "./page-objects/LoginPage.js"
 describe("Sample Test Script-change", ()=> {
     
     
-    it("Logs in to the application-changed the description of this tes-edited it online", () => {
+    it("Logs in to the application-changed the description", () => {
+        //only in Joel's branch right now
         const lp = new LoginPage() 
         
         cy.visit("http://eaapp.somee.com")
